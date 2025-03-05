@@ -1,4 +1,4 @@
-package Medium;
+package Easy;
 
 public class BestTimeToSellStock {
 

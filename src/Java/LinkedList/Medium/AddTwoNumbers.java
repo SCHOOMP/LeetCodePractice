@@ -28,8 +28,8 @@ public class AddTwoNumbers {
             int val2 = (l2 != null) ? l2.val : 0;
 
             int sum = val1 + val2 + carry;
-            carry = sum / 10;  // Calculate the carry for next iteration
-            int digit = sum % 10;  // The current digit to be added
+            carry = sum / 10;
+            int digit = sum % 10;
 
             ListNode newNode = new ListNode(digit);
             if (head == null) {
@@ -58,6 +58,6 @@ public class AddTwoNumbers {
         l2.next.next = solution.new ListNode(4);
 
         ListNode result = solution.addTwoNumbers(l1, l2);
-        printList(result);  // Prints the result linked list
+        printList(result);
     }
 }

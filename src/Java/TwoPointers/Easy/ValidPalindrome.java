@@ -1,4 +1,4 @@
-package TwoPointers.Easy;
+package Java.TwoPointers.Easy;
 
 import java.util.Arrays;
 import java.util.Collections;

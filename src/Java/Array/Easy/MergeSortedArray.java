@@ -11,7 +11,6 @@ public class MergeSortedArray {
         Arrays.sort(nums1);
     }
 
-
     public static void main(String[] args) {
         // Example to test the merge method
         int[] nums1 = {1,2,5,0,0,0};

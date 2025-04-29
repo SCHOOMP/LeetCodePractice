@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MoveZeros {
 
-    public static void moveZeroes(int[] nums) {
+    public static long[] moveZeroes(int[] nums) {
         int nonZeroIndex = 0; // Pointer to track position of the next non-zero element
 
         // Move all non-zero elements to the front
@@ -17,6 +17,7 @@ public class MoveZeros {
                 nonZeroIndex++;
             }
         }
+        return null;
     }
 
 

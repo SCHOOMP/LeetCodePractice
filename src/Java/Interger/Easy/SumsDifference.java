@@ -15,7 +15,7 @@ public class SumsDifference {
         }
         return solution;
     }
-    
+
 
 
     public static void main(String[] args) {

@@ -11,7 +11,6 @@ public class SheetColumn {
             result.insert(0, letter); // Prepend the character
             columnNumber /= 26;
         }
-
         return result.toString().toUpperCase();
     }
 
